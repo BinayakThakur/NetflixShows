@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const DynamicSphere = () => {
     const [search, setSearch] = useState("");
@@ -7,6 +7,11 @@ const DynamicSphere = () => {
     var data=[];
     var ndata=['TITLE'];
     const [result,setResult]=useState([]);
+    
+    useEffect(() => {
+       
+    }, [result]);
+    
     function axiosCall(){
         
         
@@ -42,13 +47,16 @@ const DynamicSphere = () => {
                             </div>
                         </div>
                         </div>
-                        
+
                     )
                     
+                    
                 }
+                
             )
         )
         setResult(data);
+        
     }
     function settingData(e){
         
