@@ -64,12 +64,15 @@ const DynamicSphere = () => {
     }
     
     return (
-        <div className="gradient animated-gradient">
+        <div className="gradient-background animated-gradient">
             
             <input onChange={settingData}></input>
-            <br/>
-            <br/>
+            
+            
+            
             <button onClick={axiosCall}>Search</button>
+            <br/>
+            <br/>
             {result}
         </div>
 

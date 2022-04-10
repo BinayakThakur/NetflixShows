@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="All netflix shows"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -25,6 +25,33 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <style>
+         <style>
+      .card-4 {
+           box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+              }
+              .gradient-background {
+                background: linear-gradient(-5deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	              background-size: 1000% 1000%;
+	              animation: gradient 40s ease infinite;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.02em;
+                line-height: 108px;
+                padding: 10 12px;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
       .app-bar {
         background-color: #f5f5f5;
         color: #5e5e5e;
@@ -38,16 +65,7 @@
       .card {
         margin: 16px;
       }
-      .gradient {
-        background: linear-gradient(
-          to bottom,
-          rgba(247, 6, 6, 0.7) 0%,
-          rgba(43, 3, 3, 0.3) 100%
-        );
-        color: #fff;
-        padding: 16px;
-        
-      }
+     
       .gradient-more {
         background: linear-gradient(
           to bottom,
