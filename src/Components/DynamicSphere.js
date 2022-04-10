@@ -5,7 +5,6 @@ const DynamicSphere = () => {
     const [search, setSearch] = useState("");
     const [option, setOption] = useState([]);
     var data=[];
-    var ndata=['TITLE'];
     const [result,setResult]=useState([]);
     
     useEffect(() => {
