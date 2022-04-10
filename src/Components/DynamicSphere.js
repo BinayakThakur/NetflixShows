@@ -33,7 +33,7 @@ const DynamicSphere = () => {
                 (item) => {
                     return(
                         <div className="border-bottom">
-                        <div className="card hover-glow">
+                        <div className="card hover-glow card-4">
                             <div className="card-content">
                                 <div className="card-title">
                                     {item[10]}
@@ -42,7 +42,7 @@ const DynamicSphere = () => {
                                 <div className="card-description">
                                     {item[4]}
                                 </div>
-
+                                
                             </div>
                         </div>
                         </div>
