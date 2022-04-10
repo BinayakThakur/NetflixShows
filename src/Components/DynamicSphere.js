@@ -9,7 +9,7 @@ const DynamicSphere = () => {
     
     useEffect(() => {
        
-    }, [result]);
+    }, []);
     
     function axiosCall(){
         
